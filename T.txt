@@ -1,0 +1,9 @@
+function gerarNúmerosrandoms(quantidade máximo) {
+ const númerosGerados = new Set();                                          
+ while númerosGerados.size < quantidade) {                                  
+const número = Math.floor (Math.random() * máximo) + 1       
+númerosGerados.add (número);                                                                                                                       return Array.from (NúmerosGerados);
+}                                                                         
+const números = gerarNúmerosrandoms (1,50);                               
+ } 
+console.log (números);
